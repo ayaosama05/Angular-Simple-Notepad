@@ -22,6 +22,9 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 ```bash
   ng serve
 ```
+### Demo
+
+![NoteApp Demo](https://github.com/ayaosama05/Angular-Simple-Notepad/blob/main/src/assets/images/NotepadApp.gif)
 
 ### Built with
 
@@ -29,12 +32,9 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 
 [![Material][Angularmat.io]](Angularmat-url)
 
-
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
+
 [Angularmat.io]: https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white
 [Angularmat-url]: https://material.angular.io/
 
-### Demo
-
-![NoteApp Demo](https://github.com/ayaosama05/Angular-Simple-Notepad/blob/main/src/assets/images/NotepadApp.gif)
