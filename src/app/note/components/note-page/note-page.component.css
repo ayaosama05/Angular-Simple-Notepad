@@ -1,0 +1,24 @@
+.notes-container {
+  width: 80%;
+  margin: auto;
+}
+.note-list-container,
+.note-add-container {
+  width: 100%;
+  min-height: 500px;
+  height: 100%;
+  padding-top: 60px;
+}
+.content {
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.item {
+  min-width: 40%;
+}
+.item-5 {
+  margin-bottom: 15px;
+}
+.ng-star-inserted {
+  width: 100%;
+}

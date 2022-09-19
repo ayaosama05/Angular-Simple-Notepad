@@ -1,0 +1,30 @@
+<form (ngSubmit)="createNote()" [formGroup]="registerForm">
+  <h3>Add New</h3>
+  <mat-form-field hintLabel="Max 30 characters" appearance="fill">
+    <mat-label>Enter Title</mat-label>
+    <input
+      matInput
+      #input
+      formControlName="title"
+      maxlength="30"
+      minlength="5"
+      placeholder="Title"
+      required
+      [errorStateMatcher]="matcher"
+    />
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Add Your description</mat-label>
+    <textarea
+      matInput
+      rows="5"
+      formControlName="description"
+      [errorStateMatcher]="matcher"
+    ></textarea>
+  </mat-form-field>
+  <div>
+    <button mat-raised-button color="success" [disabled]="!registerForm.valid">
+      Save Note
+    </button>
+  </div>
+</form>

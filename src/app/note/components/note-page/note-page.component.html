@@ -1,0 +1,29 @@
+<div
+  class="container content"
+  fxFlexFill
+  fxFlex="100"
+  fxLayout
+  fxLayout.xs="column-reverse"
+  fxLayoutAlign="space-evenly stretch"
+  fxLayoutGap="10px"
+  fxLayoutGap.xs="0"
+>
+  <div class="item item-4">
+    <app-note-list
+      class="note-list-container"
+      [notes]="notes"
+      (deletedNoteNum)="deleteNote($event)"
+      (note)="editNote($event)"
+    ></app-note-list>
+  </div>
+
+  <div class="item item-5">
+    <!--   <app-note-add
+      class="note-add-container"
+      (note)="addnewNote($event)"
+    ></app-note-add> -->
+
+    <app-note-form [note]="note" (targetNote)="AddOrEditNote($event)">
+    </app-note-form>
+  </div>
+</div>

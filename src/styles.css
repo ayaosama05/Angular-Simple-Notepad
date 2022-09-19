@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-button.mat-success,
+.mat-stroked-button.mat-success {
+  color: #24c047;
+}
+.mat-button.mat-success:hover,
+.mat-stroked-button.mat-success:hover {
+  background-color: #f0fff3;
+}
+
+.mat-raised-button.mat-success,
+.mat-flat-button.mat-success,
+.mat-fab.mat-success,
+.mat-mini-fab.mat-success {
+  color: #f0fff3;
+  background-color: #24c047;
+}
+
+.mat-icon-button.mat-success {
+  color: #24c047;
+}
+
+/* warning button */
+.mat-button.mat-warning,
+.mat-stroked-button.mat-warning {
+  color: #e1d44b;
+}
+.mat-button.mat-warning:hover,
+.mat-stroked-button.mat-warning:hover {
+  background-color: #e1d44b;
+}
+
+.mat-raised-button.mat-warning,
+.mat-flat-button.mat-warning,
+.mat-fab.mat-warning,
+.mat-mini-fab.mat-warning {
+  color: #f0fff3;
+  background-color: #e1d44b;
+}
+
+.mat-icon-button.mat-warning {
+  color: #e1d44b;
+}
+body {
+  background-color: #fff;
+}
+form {
+  background-color: white;
+}
+nav,
+footer,
+.mat-toolbar {
+  color: white;
+}
